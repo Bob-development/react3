@@ -1,0 +1,11 @@
+.Footer{
+    background-color: rgb(203, 188, 217);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+}
+
+.navigation{
+    width: 100%;
+}

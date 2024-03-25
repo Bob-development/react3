@@ -1,0 +1,6 @@
+.Main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 62.7%;
+}

@@ -1,0 +1,12 @@
+.Button{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(172, 172, 242);
+    color: aliceblue;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.Button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 20px;
+}

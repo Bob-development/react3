@@ -1,0 +1,10 @@
+.logo{
+    font-size: 50px;
+}
+
+.SubHeader{
+    background-color: rgb(225, 238, 250);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}

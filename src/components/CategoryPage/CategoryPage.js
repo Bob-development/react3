@@ -17,7 +17,7 @@ export function CategoryPage() {
 
             {
               productData.map((product, i) => {
-                return product.category === category ? <ProductCard price={product.price} title={product.title} key={i} /> : false
+                return product.category === category ? <ProductCard product={product} key={i} /> : false
                 // return <ProductCard key={i} />
               })
             }

@@ -8,7 +8,7 @@ export function ProductsPage() {
     <div className="products-wrapper">
       {
         productData.map((product, i) => {
-          return <ProductCard key={i} price={product.price} title={product.title}/>
+          return <ProductCard key={i} product={product} />
         })
       }
     </div>
